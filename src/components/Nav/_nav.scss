@@ -15,6 +15,7 @@
     &__burger {
         cursor: pointer;
         color: #FFF;
+        background-color: #000;
         margin-right: 1rem;
         @media screen and (min-width: 768px) {
             display: none;

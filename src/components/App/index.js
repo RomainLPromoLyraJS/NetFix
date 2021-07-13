@@ -6,6 +6,8 @@ const App = () => {
     <div className="App">
     {/* navbar */}
     <Nav />
+
+    <div className="test"></div>
     {/* banner */}
 
     {/* rows */}
