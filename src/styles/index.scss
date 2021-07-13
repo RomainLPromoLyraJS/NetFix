@@ -1,0 +1,32 @@
+/* -- Variables -- */
+@import './vars';
+
+/* -- Components styles -- */
+@import '../components/App/app';
+@import '../components/Nav/nav';
+
+
+/* -- Base CSS Project -- */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(100, 96, 96);
+  }
+  
+  *, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+
+  button {
+    background-color: none;
+    border: none;
+  }
+  
