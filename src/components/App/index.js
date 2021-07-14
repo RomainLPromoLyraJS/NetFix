@@ -1,5 +1,6 @@
 /* -- Local Imports -- */
 import Nav from "../Nav";
+import Footer from "../Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
     {/* quick view */}
 
     {/* footer */}
+    <Footer />
     </div>
   );
 }

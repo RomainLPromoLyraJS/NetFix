@@ -7,6 +7,11 @@
     width: 100%;
     padding: 12px 4%;
     font-size: 0.9rem;
+    background: linear-gradient(rgba(74, 74, 74, 0.6), rgba(0, 0, 0, 0));
+
+    /* Animations */
+    transition-timing-function: ease-in-out;
+    transition: all 0.5s;
 
     &--black {
         background-color: #000;
@@ -15,7 +20,7 @@
     &__burger {
         cursor: pointer;
         color: #FFF;
-        background-color: #000;
+        background-color: transparent;
         margin-right: 1rem;
         @media screen and (min-width: 768px) {
             display: none;
